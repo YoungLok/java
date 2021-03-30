@@ -16,4 +16,10 @@ public class KeyExample {
 		System.out.println(value);
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+  
 }
