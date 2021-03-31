@@ -14,6 +14,18 @@ public class PatternExample {
 		}else {
 			System.out.println("정규식과 일치하지 않습니다");
 		}
+		
+		
+		
+		regExp="\\w+@\\w+\\.\\w+(\\.\\w+)?";
+		data="angel.naver.com";
+		result= Pattern.matches(regExp, data);
+		if(result) {
+			System.out.println("정규식과 일치합니다");
+		}else {
+			System.out.println("정규식과 일치하지 않습니다");
+		}
+				
 	}
 
 }
