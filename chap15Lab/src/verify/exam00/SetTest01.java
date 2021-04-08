@@ -26,7 +26,8 @@ public class SetTest01 {
 		ArrayList list = new ArrayList(s);
 		Collections.sort(list);
 		System.out.println(s);
-	
+		
+		
 	}
 
 }
