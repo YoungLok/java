@@ -1,7 +1,9 @@
 package verify.exam00;
 
 import java.util.ArrayList;
-
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class BoardSVC {
@@ -65,6 +67,7 @@ public class BoardSVC {
 
 		}else {
 			System.out.println("등록된 글이 없습니다");
+		
 		}
 	}
 }

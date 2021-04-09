@@ -31,7 +31,7 @@ public class BoardMain {
 				isStop = true;
 			}
 		} while (!isStop);
-		System.out.println("-프로그램 종료-");
+		System.out.print("-프로그램 종료-");
 	}
 
 }
