@@ -18,7 +18,7 @@ public class StreamPipelinesExample {
 			.average()
 			.getAsDouble();
 		
-		System.out.println("남자 평균 나이: " + ageAvg);
+		System.out.println("남자 평균 나이= " + ageAvg);
 	}
 }
 
