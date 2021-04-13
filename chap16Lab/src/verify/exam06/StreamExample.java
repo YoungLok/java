@@ -12,7 +12,7 @@ public class StreamExample {
 		);
 		
 		double avg = list.stream()
-			.mapToInt(Member::getAge)
+			.mapToInt(m->m.getAge())
 			.average()
 			.getAsDouble();
 		
