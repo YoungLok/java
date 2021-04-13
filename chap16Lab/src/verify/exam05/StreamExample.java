@@ -11,7 +11,7 @@ public class StreamExample {
 			"Java8 supports lambda expressions"
 		);
 		list.stream()
-			.filter(a -> a.toLowerCase().contains("java"))
-			.forEach(a -> System.out.println(a));
+			.filter(n -> n.toLowerCase().contains("java"))
+			.forEach(n -> System.out.println(n));
 	}
 }
