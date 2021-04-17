@@ -9,7 +9,7 @@ public class JDBC_Connect02 {
 		/** ORACLE JDBC Driver Test *****************************************/
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		// String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-		String url = "jdbc:oracle:thin:@localhost:1521:MYORACLE";
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		/*******************************************************************/
 
 		/** My-SQL JDBC Driver *********************************************/
