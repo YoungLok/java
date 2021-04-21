@@ -30,7 +30,7 @@ public class ClientExample {
 		}
 		
 		os.flush();
-		System.out.println("[파일 보내기 완료]");		
+		System.out.println("[파일 보내기 완료 ]");		
 		
 		fis.close();
 		os.close();
